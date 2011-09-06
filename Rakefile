@@ -51,9 +51,9 @@ namespace :gemcutter do
   desc "check gemcutter status"
   task :status do
     if Rubygems.status
-      puts "This gem already existe in version #{PKG_VERS}!"
+      puts "This gem already existe in version #{RubyGraphViz::VERSION}!"
     else
-      puts "This gem (#{Constants::RGV_VERSION}) has not been published! Last version at gemcutter is #{Rubygems.version}"
+      puts "This gem (#{RubyGraphViz::VERSION}) has not been published! Last version at gemcutter is #{Rubygems.version}"
     end
   end
 end

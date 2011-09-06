@@ -40,8 +40,6 @@
 #   C => cluster
 #
 module Constants
-  RGV_VERSION = "1.0.0"
-  
   ## Const: Output formats
   FORMATS = [
     "bmp",

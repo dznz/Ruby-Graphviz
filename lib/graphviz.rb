@@ -20,6 +20,8 @@ IS_CYGWIN = ((RUBY_PLATFORM =~ /cygwin/) != nil)
 
 require 'tempfile'
 
+require 'graphviz/version'
+
 require 'graphviz/utils'
 require 'graphviz/node'
 require 'graphviz/edge'
@@ -35,7 +37,7 @@ if /^1.8/.match RUBY_VERSION
   $KCODE = "UTF8"
 end
 
-class GraphViz 
+class GraphViz
   include Constants
   include GVUtils
 

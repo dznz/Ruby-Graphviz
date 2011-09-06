@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 
-require "graphviz/constants"
+require "graphviz/version"
 
 Gem::Specification.new do |s|
   s.name = "ruby-graphviz"
-  s.version = Constants::RGV_VERSION
+  s.version = RubyGraphViz::VERSION
   s.platform = Gem::Platform::RUBY
   
   s.authors = ["Gregoire Lejeune"]
